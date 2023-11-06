@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 
 # Activar el entorno virtual
 source env/Scripts/activate
@@ -9,9 +9,9 @@ pip install -r requirements.txt
 # Actualizar pip (opcional)
 pip install --upgrade pip
 
-# Navegar a la carpeta del frontend si es necesario (por ejemplo, npm)
+# Navegar a la carpeta del frontend 
 cd src/static/lib
-npm install  # Si utilizas npm para el frontend
+npm install  
 
 # Correr el programa
 python src/manage.py runserver
